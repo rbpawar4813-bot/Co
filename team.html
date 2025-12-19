@@ -3,10 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Our Team | Nexus Innovations</title>
+    <title>Our Team | Axionyx</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
@@ -14,12 +14,12 @@
     <nav class="navbar">
       <div class="container navbar-container">
         <a href="/" class="logo">
-          <i data-lucide="hexagon"></i>
-          <span>Nexus</span>
+          <img src="https://image2url.com/images/1766127093238-fcc58811-2caf-43f4-a69a-5c7749c824a7.jpeg" alt="Axionyx Logo" />
+          <span>Axionyx</span>
         </a>
         <div class="nav-links" id="navLinks">
           <a href="/" class="nav-link">Home</a>
-          <a href="/team.html" class="nav-link">Team</a>
+          <a href="/team.html" class="nav-link active">Team</a>
           <a href="/services.html" class="nav-link">Services</a>
           <a href="/portfolio.html" class="nav-link">Work</a>
           <a href="/about.html" class="nav-link">About</a>
@@ -33,7 +33,7 @@
 
     <!-- Page Header -->
     <header class="page-header">
-      <div class="container">
+      <div class="container reveal">
         <h1>Meet The Experts</h1>
         <p>The talented individuals driving our innovation and success.</p>
       </div>
@@ -44,33 +44,34 @@
       <div class="container">
         <div class="team-grid">
           <!-- Software Developer -->
-          <div class="team-card">
-            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=600" alt="Alex Chen" class="team-image">
+          <div class="team-card reveal">
+            <!-- Added inline style to center Rahul's image specifically -->
+            <img src="https://image2url.com/images/1766137033769-a689f396-8398-42d5-ac9a-f236e0d494c6.png" alt="Rahul Pawar" class="team-image" style="object-position: center;">
             <div class="team-content">
-              <span class="team-role">Senior Software Developer</span>
-              <h3>Alex Chen</h3>
+              <span class="team-role">Software & Web Developer</span>
+              <h3>Rahul Pawar</h3>
               <p>Full-stack architect specializing in scalable cloud infrastructure and modern web frameworks.</p>
               <a href="/team-dev.html" class="btn btn-outline btn-block">View Portfolio</a>
             </div>
           </div>
 
           <!-- Project Manager -->
-          <div class="team-card">
-            <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=600" alt="Sarah Jones" class="team-image">
+          <div class="team-card reveal delay-100">
+            <img src="https://image2url.com/images/1766137249977-cbb71cc9-2edd-45a1-a79e-76ca778a7d54.jpeg" alt="Daksesh Panchal" class="team-image">
             <div class="team-content">
               <span class="team-role">Project Manager</span>
-              <h3>Sarah Jones</h3>
+              <h3>Daksesh Panchal</h3>
               <p>Certified Scrum Master ensuring on-time delivery and seamless agile workflows.</p>
               <a href="/team-pm.html" class="btn btn-outline btn-block">View Portfolio</a>
             </div>
           </div>
 
           <!-- CRM -->
-          <div class="team-card">
-            <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=80&w=600" alt="Michael Ross" class="team-image">
+          <div class="team-card reveal delay-200">
+            <img src="https://image2url.com/images/1766128928981-7f99f2d3-7b1b-4365-ac30-cb1913477188.png" alt="Yogesh Katheriya" class="team-image">
             <div class="team-content">
               <span class="team-role">Client Relationship Manager</span>
-              <h3>Michael Ross</h3>
+              <h3>Yogesh Katheriya</h3>
               <p>Dedicated to client success, retention, and building long-lasting strategic partnerships.</p>
               <a href="/team-crm.html" class="btn btn-outline btn-block">View Portfolio</a>
             </div>
@@ -83,26 +84,26 @@
     <footer class="footer">
       <div class="container">
         <div class="footer-top">
-          <div class="footer-brand">
+          <div class="footer-brand reveal">
             <a href="/" class="logo light">
-              <i data-lucide="hexagon"></i>
-              <span>Nexus</span>
+              <img src="https://image2url.com/images/1766127093238-fcc58811-2caf-43f4-a69a-5c7749c824a7.jpeg" alt="Axionyx Logo" />
+              <span>Axionyx</span>
             </a>
             <p>Building the future of digital experiences.</p>
           </div>
-          <div class="footer-links">
+          <div class="footer-links reveal delay-100">
             <h4>Company</h4>
             <a href="/team.html">Team</a>
             <a href="/about.html">About</a>
             <a href="/contact.html">Careers</a>
           </div>
-          <div class="footer-links">
+          <div class="footer-links reveal delay-200">
             <h4>Services</h4>
             <a href="/services.html">Web Dev</a>
             <a href="/services.html">Mobile Apps</a>
             <a href="/services.html">Design</a>
           </div>
-          <div class="footer-links">
+          <div class="footer-links reveal delay-300">
             <h4>Social</h4>
             <a href="#">Twitter</a>
             <a href="#">LinkedIn</a>
@@ -110,7 +111,7 @@
           </div>
         </div>
         <div class="footer-bottom">
-          <p>&copy; 2025 Nexus Innovations. All rights reserved.</p>
+          <p>&copy; 2025 Axionyx. All rights reserved.</p>
         </div>
       </div>
     </footer>

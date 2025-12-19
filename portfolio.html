@@ -3,10 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Our Work | Nexus Innovations</title>
+    <title>Our Work | Axionyx</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
@@ -14,14 +14,14 @@
     <nav class="navbar">
       <div class="container navbar-container">
         <a href="/" class="logo">
-          <i data-lucide="hexagon"></i>
-          <span>Nexus</span>
+          <img src="https://image2url.com/images/1766127093238-fcc58811-2caf-43f4-a69a-5c7749c824a7.jpeg" alt="Axionyx Logo" />
+          <span>Axionyx</span>
         </a>
         <div class="nav-links" id="navLinks">
           <a href="/" class="nav-link">Home</a>
           <a href="/team.html" class="nav-link">Team</a>
           <a href="/services.html" class="nav-link">Services</a>
-          <a href="/portfolio.html" class="nav-link">Work</a>
+          <a href="/portfolio.html" class="nav-link active">Work</a>
           <a href="/about.html" class="nav-link">About</a>
           <a href="/contact.html" class="btn btn-primary">Get in Touch</a>
         </div>
@@ -33,7 +33,7 @@
 
     <!-- Page Header -->
     <header class="page-header">
-      <div class="container">
+      <div class="container reveal">
         <h1>Featured Projects</h1>
         <p>A glimpse into the innovative solutions we've delivered.</p>
       </div>
@@ -43,46 +43,59 @@
     <section class="section">
       <div class="container">
         <div class="portfolio-grid">
-          <article class="portfolio-item">
+          
+          <!-- Project 1 -->
+          <article class="portfolio-item reveal">
             <div class="portfolio-image">
-              <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800" alt="Fintech Dashboard" />
+              <a href="#" target="_blank" aria-label="View Sales Pro Project">
+                <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800" alt="Fintech Dashboard" />
+              </a>
             </div>
             <div class="portfolio-content">
-              <span class="portfolio-category">Fintech</span>
-              <h3>Nova Banking App</h3>
-              <p>A comprehensive mobile banking solution with real-time analytics.</p>
+              <span class="portfolio-category">CRM</span>
+              <h3><a href="#" target="_blank">Sales Pro</a></h3>
+              <p>SalesPro for Dynamics 365 ensures clean, high-quality CRM data by combining one-click address autofill and real-time email validation, preventing errors at the source.</p>
+              <a href="#" target="_blank" class="portfolio-link">
+                Visit Project <i data-lucide="https://marketplace.microsoft.com/en-us/product/dynamics-365/mctitsolutionspvtltd1702303332334.salesprooffer?tab=Overview"></i>
+              </a>
             </div>
           </article>
-          <article class="portfolio-item">
+
+          
+          <!-- Project 3 -->
+          <article class="portfolio-item reveal delay-200">
             <div class="portfolio-image">
-              <img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&q=80&w=800" alt="E-commerce Platform" />
+              <a href="#" target="_blank" aria-label="View SalesPro Marketing Site Project">
+                <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800" alt="Healthcare Portal" />
+              </a>
             </div>
             <div class="portfolio-content">
-              <span class="portfolio-category">E-commerce</span>
-              <h3>Luxe Fashion Store</h3>
-              <p>High-performance online store with AI-driven recommendations.</p>
+              <span class="portfolio-category">Salespro Marketing Site</span>
+              <h3><a href="#" target="_blank">Marketing Site</a></h3>
+              <p>Secure patient management system for a national CRM data network, featuring appointment scheduling and Marketing.</p>
+              <a href="#" target="_blank" class="portfolio-link">
+                Visit Project <i data-lucide="https://sales-pro.co.in/"></i>
+              </a>
             </div>
           </article>
-          <article class="portfolio-item">
+
+          <!-- Project 4 -->
+          <article class="portfolio-item reveal delay-300">
             <div class="portfolio-image">
-              <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800" alt="Healthcare Portal" />
-            </div>
-            <div class="portfolio-content">
-              <span class="portfolio-category">Healthcare</span>
-              <h3>MediConnect Portal</h3>
-              <p>Secure patient management system for a national hospital network.</p>
-            </div>
-          </article>
-           <article class="portfolio-item">
-            <div class="portfolio-image">
-              <img src="https://images.unsplash.com/photo-1555421689-491a97ff2040?auto=format&fit=crop&q=80&w=800" alt="Real Estate App" />
+              <a href="#" target="_blank" aria-label="View PropTech Solutions Project">
+                <img src="https://images.unsplash.com/photo-1555421689-491a97ff2040?auto=format&fit=crop&q=80&w=800" alt="Real Estate App" />
+              </a>
             </div>
             <div class="portfolio-content">
               <span class="portfolio-category">Real Estate</span>
-              <h3>PropTech Solutions</h3>
-              <p>Virtual tour integration and property management dashboard.</p>
+              <h3><a href="#" target="_blank">PropTech Solutions</a></h3>
+              <p>Virtual tour integration and property management dashboard for real estate agencies.</p>
+              <a href="#" target="_blank" class="portfolio-link">
+                Visit Project <i data-lucide="external-link"></i>
+              </a>
             </div>
           </article>
+
         </div>
       </div>
     </section>
@@ -91,26 +104,26 @@
     <footer class="footer">
       <div class="container">
         <div class="footer-top">
-          <div class="footer-brand">
+          <div class="footer-brand reveal">
             <a href="/" class="logo light">
-              <i data-lucide="hexagon"></i>
-              <span>Nexus</span>
+              <img src="https://image2url.com/images/1766127093238-fcc58811-2caf-43f4-a69a-5c7749c824a7.jpeg" alt="Axionyx Logo" />
+              <span>Axionyx</span>
             </a>
             <p>Building the future of digital experiences.</p>
           </div>
-          <div class="footer-links">
+          <div class="footer-links reveal delay-100">
             <h4>Company</h4>
             <a href="/team.html">Team</a>
             <a href="/about.html">About</a>
             <a href="/contact.html">Careers</a>
           </div>
-          <div class="footer-links">
+          <div class="footer-links reveal delay-200">
             <h4>Services</h4>
             <a href="/services.html">Web Dev</a>
             <a href="/services.html">Mobile Apps</a>
             <a href="/services.html">Design</a>
           </div>
-          <div class="footer-links">
+          <div class="footer-links reveal delay-300">
             <h4>Social</h4>
             <a href="#">Twitter</a>
             <a href="#">LinkedIn</a>
@@ -118,7 +131,7 @@
           </div>
         </div>
         <div class="footer-bottom">
-          <p>&copy; 2025 Nexus Innovations. All rights reserved.</p>
+          <p>&copy; 2025 Axionyx. All rights reserved.</p>
         </div>
       </div>
     </footer>

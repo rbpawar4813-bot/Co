@@ -3,10 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Services | Nexus Innovations</title>
+    <title>Services | Axionyx</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
@@ -14,13 +14,13 @@
     <nav class="navbar">
       <div class="container navbar-container">
         <a href="/" class="logo">
-          <i data-lucide="hexagon"></i>
-          <span>Nexus</span>
+          <img src="https://image2url.com/images/1766127093238-fcc58811-2caf-43f4-a69a-5c7749c824a7.jpeg" alt="Axionyx Logo" />
+          <span>Axionyx</span>
         </a>
         <div class="nav-links" id="navLinks">
           <a href="/" class="nav-link">Home</a>
           <a href="/team.html" class="nav-link">Team</a>
-          <a href="/services.html" class="nav-link">Services</a>
+          <a href="/services.html" class="nav-link active">Services</a>
           <a href="/portfolio.html" class="nav-link">Work</a>
           <a href="/about.html" class="nav-link">About</a>
           <a href="/contact.html" class="btn btn-primary">Get in Touch</a>
@@ -33,8 +33,8 @@
 
     <!-- Page Header -->
     <header class="page-header">
-      <div class="container">
-        <h1>Our Expertise</h1>
+      <div class="container reveal">
+        <h1>Our Services</h1>
         <p>Comprehensive digital solutions tailored to your business needs.</p>
       </div>
     </header>
@@ -43,54 +43,222 @@
     <section class="section">
       <div class="container">
         <div class="services-grid">
-          <div class="service-card">
+          
+          <!-- 1. Website Development -->
+          <div class="service-card reveal">
             <div class="service-icon">
-              <i data-lucide="monitor"></i>
+              <i data-lucide="globe"></i>
             </div>
-            <h3>Web Development</h3>
-            <p>Custom websites and web applications built with modern frameworks for speed and scalability.</p>
-            <a href="#" class="service-link">Learn more <i data-lucide="arrow-right"></i></a>
+            <h3>Website Development</h3>
+            <ul class="service-list">
+              <li>Static websites (HTML, CSS, JS)</li>
+              <li>Dynamic websites (Node.js, PHP)</li>
+              <li>Business & corporate websites</li>
+              <li>Portfolio websites</li>
+              <li>Landing pages for marketing</li>
+            </ul>
+            <a href="/contact.html" class="service-link">Get Started <i data-lucide="arrow-right"></i></a>
           </div>
-          <div class="service-card">
+
+          <!-- 2. Frontend Development -->
+          <div class="service-card reveal delay-100">
             <div class="service-icon">
-              <i data-lucide="smartphone"></i>
+              <i data-lucide="layout"></i>
             </div>
-            <h3>Mobile Apps</h3>
-            <p>Native and cross-platform mobile applications that provide seamless user experiences.</p>
-            <a href="#" class="service-link">Learn more <i data-lucide="arrow-right"></i></a>
+            <h3>Frontend Development</h3>
+            <ul class="service-list">
+              <li>Responsive UI (Mobile/Tablet/Desktop)</li>
+              <li>Figma / XD / PSD to Code</li>
+              <li>Performance optimization</li>
+              <li>Animations & interactions</li>
+              <li>Accessibility (WCAG)</li>
+            </ul>
+            <a href="/contact.html" class="service-link">Get Started <i data-lucide="arrow-right"></i></a>
           </div>
-          <div class="service-card">
+
+          <!-- 3. Backend Development -->
+          <div class="service-card reveal delay-200">
             <div class="service-icon">
-              <i data-lucide="palette"></i>
+              <i data-lucide="database"></i>
             </div>
-            <h3>UI/UX Design</h3>
-            <p>User-centric design that combines aesthetics with functionality to drive engagement.</p>
-            <a href="#" class="service-link">Learn more <i data-lucide="arrow-right"></i></a>
+            <h3>Backend Development</h3>
+            <ul class="service-list">
+              <li>REST API development</li>
+              <li>Authentication (Login/Signup)</li>
+              <li>Database Design (SQL/NoSQL)</li>
+              <li>Admin panels & dashboards</li>
+              <li>Payment gateway integration</li>
+            </ul>
+            <a href="/contact.html" class="service-link">Get Started <i data-lucide="arrow-right"></i></a>
           </div>
-          <div class="service-card">
+
+          <!-- 4. Full-Stack Development -->
+          <div class="service-card reveal delay-300">
             <div class="service-icon">
-              <i data-lucide="bar-chart-2"></i>
+              <i data-lucide="layers"></i>
             </div>
-            <h3>Digital Marketing</h3>
-            <p>Data-driven strategies to increase visibility, traffic, and conversions for your brand.</p>
-            <a href="#" class="service-link">Learn more <i data-lucide="arrow-right"></i></a>
+            <h3>Full-Stack Development</h3>
+            <ul class="service-list">
+              <li>End-to-end web applications</li>
+              <li>SaaS platforms</li>
+              <li>CRM / ERP systems</li>
+              <li>Role-based access systems</li>
+            </ul>
+            <a href="/contact.html" class="service-link">Get Started <i data-lucide="arrow-right"></i></a>
           </div>
-          <div class="service-card">
+
+          <!-- 5. WordPress Development -->
+          <div class="service-card reveal">
+            <div class="service-icon">
+              <i data-lucide="layout-template"></i>
+            </div>
+            <h3>WordPress Development</h3>
+            <ul class="service-list">
+              <li>Custom WordPress websites</li>
+              <li>Theme customization</li>
+              <li>Plugin setup & customization</li>
+              <li>Speed & security optimization</li>
+              <li>Blog & content sites</li>
+            </ul>
+            <a href="/contact.html" class="service-link">Get Started <i data-lucide="arrow-right"></i></a>
+          </div>
+
+          <!-- 6. No-Code / Low-Code -->
+          <div class="service-card reveal delay-100">
+            <div class="service-icon">
+              <i data-lucide="zap"></i>
+            </div>
+            <h3>No-Code / Low-Code</h3>
+            <ul class="service-list">
+              <li>Webflow websites</li>
+              <li>Wix / Squarespace customization</li>
+              <li>Firebase + frontend apps</li>
+              <li>Power Apps / Dataverse apps</li>
+            </ul>
+            <a href="/contact.html" class="service-link">Get Started <i data-lucide="arrow-right"></i></a>
+          </div>
+
+          <!-- 7. Website Redesign & Revamp -->
+          <div class="service-card reveal delay-200">
+            <div class="service-icon">
+              <i data-lucide="refresh-cw"></i>
+            </div>
+            <h3>Website Redesign</h3>
+            <ul class="service-list">
+              <li>UI/UX modernization</li>
+              <li>Mobile optimization</li>
+              <li>Speed improvement</li>
+              <li>Conversion-focused redesign</li>
+            </ul>
+            <a href="/contact.html" class="service-link">Get Started <i data-lucide="arrow-right"></i></a>
+          </div>
+
+          <!-- 8. Website Maintenance -->
+          <div class="service-card reveal delay-300">
+            <div class="service-icon">
+              <i data-lucide="wrench"></i>
+            </div>
+            <h3>Maintenance & Support</h3>
+            <ul class="service-list">
+              <li>Bug fixes</li>
+              <li>Feature updates</li>
+              <li>Content updates</li>
+              <li>Monthly maintenance plans</li>
+            </ul>
+            <a href="/contact.html" class="service-link">Get Started <i data-lucide="arrow-right"></i></a>
+          </div>
+
+          <!-- 9. SEO-Friendly Development -->
+          <div class="service-card reveal">
+            <div class="service-icon">
+              <i data-lucide="search"></i>
+            </div>
+            <h3>SEO Development</h3>
+            <ul class="service-list">
+              <li>Clean HTML structure</li>
+              <li>Page speed optimization</li>
+              <li>SEO meta setup</li>
+              <li>Schema & indexing support</li>
+            </ul>
+            <a href="/contact.html" class="service-link">Get Started <i data-lucide="arrow-right"></i></a>
+          </div>
+
+          <!-- 10. Hosting & Deployment -->
+          <div class="service-card reveal delay-100">
             <div class="service-icon">
               <i data-lucide="cloud"></i>
             </div>
-            <h3>Cloud Solutions</h3>
-            <p>Scalable cloud infrastructure setup and management (AWS, Azure, Google Cloud).</p>
-            <a href="#" class="service-link">Learn more <i data-lucide="arrow-right"></i></a>
+            <h3>Hosting & Deployment</h3>
+            <ul class="service-list">
+              <li>Domain & hosting setup</li>
+              <li>Netlify / Vercel / Firebase</li>
+              <li>Cloud deployment</li>
+              <li>CI/CD setup (GitHub)</li>
+            </ul>
+            <a href="/contact.html" class="service-link">Get Started <i data-lucide="arrow-right"></i></a>
           </div>
-          <div class="service-card">
+
+          <!-- 11. Web App Development -->
+          <div class="service-card reveal delay-200">
             <div class="service-icon">
-              <i data-lucide="shield"></i>
+              <i data-lucide="app-window"></i>
             </div>
-            <h3>Cybersecurity</h3>
-            <p>Protecting your digital assets with advanced security audits and implementation.</p>
-            <a href="#" class="service-link">Learn more <i data-lucide="arrow-right"></i></a>
+            <h3>Web App Development</h3>
+            <ul class="service-list">
+              <li>Dashboards</li>
+              <li>Booking systems</li>
+              <li>E-commerce apps</li>
+              <li>Internal company tools</li>
+            </ul>
+            <a href="/contact.html" class="service-link">Get Started <i data-lucide="arrow-right"></i></a>
           </div>
+
+          <!-- 12. API & Integration -->
+          <div class="service-card reveal delay-300">
+            <div class="service-icon">
+              <i data-lucide="webhook"></i>
+            </div>
+            <h3>API & Integrations</h3>
+            <ul class="service-list">
+              <li>Third-party API integration</li>
+              <li>Payment gateways (Stripe, Razorpay)</li>
+              <li>Email & SMS services</li>
+              <li>CRM integrations</li>
+            </ul>
+            <a href="/contact.html" class="service-link">Get Started <i data-lucide="arrow-right"></i></a>
+          </div>
+
+          <!-- 13. E-commerce Solutions -->
+          <div class="service-card reveal">
+            <div class="service-icon">
+              <i data-lucide="shopping-cart"></i>
+            </div>
+            <h3>E-commerce Solutions</h3>
+            <ul class="service-list">
+              <li>Shopify stores</li>
+              <li>Custom e-commerce websites</li>
+              <li>Payment & order systems</li>
+              <li>Product & inventory management</li>
+            </ul>
+            <a href="/contact.html" class="service-link">Get Started <i data-lucide="arrow-right"></i></a>
+          </div>
+
+           <!-- Extra Services -->
+           <div class="service-card reveal delay-100">
+            <div class="service-icon">
+              <i data-lucide="star"></i>
+            </div>
+            <h3>Value-Added Services</h3>
+            <ul class="service-list">
+              <li>Website performance audit</li>
+              <li>Security hardening</li>
+              <li>Migration (old site → new site)</li>
+              <li>Website documentation</li>
+              <li>Client training</li>
+            </ul>
+            <a href="/contact.html" class="service-link">Get Started <i data-lucide="arrow-right"></i></a>
+          </div>
+
         </div>
       </div>
     </section>
@@ -99,26 +267,26 @@
     <footer class="footer">
       <div class="container">
         <div class="footer-top">
-          <div class="footer-brand">
+          <div class="footer-brand reveal">
             <a href="/" class="logo light">
-              <i data-lucide="hexagon"></i>
-              <span>Nexus</span>
+              <img src="https://image2url.com/images/1766127093238-fcc58811-2caf-43f4-a69a-5c7749c824a7.jpeg" alt="Axionyx Logo" />
+              <span>Axionyx</span>
             </a>
             <p>Building the future of digital experiences.</p>
           </div>
-          <div class="footer-links">
+          <div class="footer-links reveal delay-100">
             <h4>Company</h4>
             <a href="/team.html">Team</a>
             <a href="/about.html">About</a>
             <a href="/contact.html">Careers</a>
           </div>
-          <div class="footer-links">
+          <div class="footer-links reveal delay-200">
             <h4>Services</h4>
             <a href="/services.html">Web Dev</a>
             <a href="/services.html">Mobile Apps</a>
             <a href="/services.html">Design</a>
           </div>
-          <div class="footer-links">
+          <div class="footer-links reveal delay-300">
             <h4>Social</h4>
             <a href="#">Twitter</a>
             <a href="#">LinkedIn</a>
@@ -126,7 +294,7 @@
           </div>
         </div>
         <div class="footer-bottom">
-          <p>&copy; 2025 Nexus Innovations. All rights reserved.</p>
+          <p>&copy; 2025 Axionyx. All rights reserved.</p>
         </div>
       </div>
     </footer>

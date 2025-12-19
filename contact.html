@@ -3,10 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contact Us | Nexus Innovations</title>
+    <title>Contact Us | Axionyx</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
@@ -14,8 +14,8 @@
     <nav class="navbar">
       <div class="container navbar-container">
         <a href="/" class="logo">
-          <i data-lucide="hexagon"></i>
-          <span>Nexus</span>
+          <img src="https://image2url.com/images/1766127093238-fcc58811-2caf-43f4-a69a-5c7749c824a7.jpeg" alt="Axionyx Logo" />
+          <span>Axionyx</span>
         </a>
         <div class="nav-links" id="navLinks">
           <a href="/" class="nav-link">Home</a>
@@ -23,7 +23,7 @@
           <a href="/services.html" class="nav-link">Services</a>
           <a href="/portfolio.html" class="nav-link">Work</a>
           <a href="/about.html" class="nav-link">About</a>
-          <a href="/contact.html" class="btn btn-primary">Get in Touch</a>
+          <a href="/contact.html" class="btn btn-primary active">Get in Touch</a>
         </div>
         <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
           <i data-lucide="menu"></i>
@@ -33,68 +33,47 @@
 
     <!-- Page Header -->
     <header class="page-header">
-      <div class="container">
-        <h1>Let's Work Together</h1>
-        <p>Have a project in mind? We'd love to hear from you.</p>
+      <div class="container reveal">
+        <h1>Get in Touch</h1>
+        <p>We're here to help and answer any question you might have.</p>
       </div>
     </header>
 
     <!-- Contact Section -->
     <section class="section">
       <div class="container">
-        <div class="contact-wrapper">
-          <div class="contact-info">
-            <h2>Contact Info</h2>
-            <p>Reach out to us through any of these channels.</p>
-            
-            <div class="contact-item">
-              <div class="icon-box"><i data-lucide="map-pin"></i></div>
-              <div>
-                <h4>Visit Us</h4>
-                <p>123 Innovation Drive, Tech City, TC 90210</p>
-              </div>
-            </div>
-            
-            <div class="contact-item">
-              <div class="icon-box"><i data-lucide="mail"></i></div>
-              <div>
-                <h4>Email Us</h4>
-                <p>hello@nexusinnovations.com</p>
-              </div>
-            </div>
-            
-            <div class="contact-item">
-              <div class="icon-box"><i data-lucide="phone"></i></div>
-              <div>
-                <h4>Call Us</h4>
-                <p>+1 (555) 123-4567</p>
-              </div>
-            </div>
-          </div>
+        <div class="contact-cards-grid reveal delay-100">
           
-          <form class="contact-form" onsubmit="event.preventDefault();">
-            <div class="form-group">
-              <label for="name">Name</label>
-              <input type="text" id="name" placeholder="John Doe" required>
+          <!-- Visit Us Card -->
+          <div class="contact-card">
+            <div class="contact-icon-wrapper">
+              <i data-lucide="map-pin"></i>
             </div>
-            <div class="form-group">
-              <label for="email">Email</label>
-              <input type="email" id="email" placeholder="john@example.com" required>
+            <h3>Visit Us</h3>
+            <p>123 Innovation Drive,<br>Tech City, TC 90210</p>
+            <span class="contact-action disabled">Office HQ</span>
+          </div>
+
+          <!-- Email Us Card -->
+          <a href="mailto:axionyxitsolutions@gmail.com" class="contact-card interactive">
+            <div class="contact-icon-wrapper">
+              <i data-lucide="mail"></i>
             </div>
-            <div class="form-group">
-              <label for="subject">Subject</label>
-              <select id="subject">
-                <option value="general">General Inquiry</option>
-                <option value="project">Start a Project</option>
-                <option value="career">Careers</option>
-              </select>
+            <h3>Email Us</h3>
+            <p>axionyxitsolutions@gmail.com</p>
+            <span class="contact-action">Send an email <i data-lucide="arrow-right"></i></span>
+          </a>
+
+          <!-- Call Us Card -->
+          <a href="tel:+919512308416" class="contact-card interactive">
+            <div class="contact-icon-wrapper">
+              <i data-lucide="phone"></i>
             </div>
-            <div class="form-group">
-              <label for="message">Message</label>
-              <textarea id="message" rows="5" placeholder="Tell us about your project..." required></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary btn-block">Send Message</button>
-          </form>
+            <h3>Call Us</h3>
+            <p>+91 9512308416</p>
+            <span class="contact-action">Call now <i data-lucide="arrow-right"></i></span>
+          </a>
+
         </div>
       </div>
     </section>
@@ -103,26 +82,26 @@
     <footer class="footer">
       <div class="container">
         <div class="footer-top">
-          <div class="footer-brand">
+          <div class="footer-brand reveal">
             <a href="/" class="logo light">
-              <i data-lucide="hexagon"></i>
-              <span>Nexus</span>
+              <img src="https://image2url.com/images/1766127093238-fcc58811-2caf-43f4-a69a-5c7749c824a7.jpeg" alt="Axionyx Logo" />
+              <span>Axionyx</span>
             </a>
             <p>Building the future of digital experiences.</p>
           </div>
-          <div class="footer-links">
+          <div class="footer-links reveal delay-100">
             <h4>Company</h4>
             <a href="/team.html">Team</a>
             <a href="/about.html">About</a>
             <a href="/contact.html">Careers</a>
           </div>
-          <div class="footer-links">
+          <div class="footer-links reveal delay-200">
             <h4>Services</h4>
             <a href="/services.html">Web Dev</a>
             <a href="/services.html">Mobile Apps</a>
             <a href="/services.html">Design</a>
           </div>
-          <div class="footer-links">
+          <div class="footer-links reveal delay-300">
             <h4>Social</h4>
             <a href="#">Twitter</a>
             <a href="#">LinkedIn</a>
@@ -130,7 +109,7 @@
           </div>
         </div>
         <div class="footer-bottom">
-          <p>&copy; 2025 Nexus Innovations. All rights reserved.</p>
+          <p>&copy; 2025 Axionyx. All rights reserved.</p>
         </div>
       </div>
     </footer>
