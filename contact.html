@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us | Nexus Innovations</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="container navbar-container">
+        <a href="/" class="logo">
+          <i data-lucide="hexagon"></i>
+          <span>Nexus</span>
+        </a>
+        <div class="nav-links" id="navLinks">
+          <a href="/" class="nav-link">Home</a>
+          <a href="/team.html" class="nav-link">Team</a>
+          <a href="/services.html" class="nav-link">Services</a>
+          <a href="/portfolio.html" class="nav-link">Work</a>
+          <a href="/about.html" class="nav-link">About</a>
+          <a href="/contact.html" class="btn btn-primary">Get in Touch</a>
+        </div>
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+          <i data-lucide="menu"></i>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="page-header">
+      <div class="container">
+        <h1>Let's Work Together</h1>
+        <p>Have a project in mind? We'd love to hear from you.</p>
+      </div>
+    </header>
+
+    <!-- Contact Section -->
+    <section class="section">
+      <div class="container">
+        <div class="contact-wrapper">
+          <div class="contact-info">
+            <h2>Contact Info</h2>
+            <p>Reach out to us through any of these channels.</p>
+            
+            <div class="contact-item">
+              <div class="icon-box"><i data-lucide="map-pin"></i></div>
+              <div>
+                <h4>Visit Us</h4>
+                <p>123 Innovation Drive, Tech City, TC 90210</p>
+              </div>
+            </div>
+            
+            <div class="contact-item">
+              <div class="icon-box"><i data-lucide="mail"></i></div>
+              <div>
+                <h4>Email Us</h4>
+                <p>hello@nexusinnovations.com</p>
+              </div>
+            </div>
+            
+            <div class="contact-item">
+              <div class="icon-box"><i data-lucide="phone"></i></div>
+              <div>
+                <h4>Call Us</h4>
+                <p>+1 (555) 123-4567</p>
+              </div>
+            </div>
+          </div>
+          
+          <form class="contact-form" onsubmit="event.preventDefault();">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" placeholder="John Doe" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" placeholder="john@example.com" required>
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <select id="subject">
+                <option value="general">General Inquiry</option>
+                <option value="project">Start a Project</option>
+                <option value="career">Careers</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" rows="5" placeholder="Tell us about your project..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-top">
+          <div class="footer-brand">
+            <a href="/" class="logo light">
+              <i data-lucide="hexagon"></i>
+              <span>Nexus</span>
+            </a>
+            <p>Building the future of digital experiences.</p>
+          </div>
+          <div class="footer-links">
+            <h4>Company</h4>
+            <a href="/team.html">Team</a>
+            <a href="/about.html">About</a>
+            <a href="/contact.html">Careers</a>
+          </div>
+          <div class="footer-links">
+            <h4>Services</h4>
+            <a href="/services.html">Web Dev</a>
+            <a href="/services.html">Mobile Apps</a>
+            <a href="/services.html">Design</a>
+          </div>
+          <div class="footer-links">
+            <h4>Social</h4>
+            <a href="#">Twitter</a>
+            <a href="#">LinkedIn</a>
+            <a href="#">Instagram</a>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 Nexus Innovations. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
